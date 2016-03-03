@@ -25,7 +25,7 @@ RUN apk add --no-cache curl make gcc g++ binutils-gold python linux-headers paxc
     /usr/share/man /tmp/* /var/cache/apk/* /root/.npm /root/.node-gyp \
     /usr/lib/node_modules/npm/man /usr/lib/node_modules/npm/doc /usr/lib/node_modules/npm/html
 
-EXPOSE 8888
-EXPOSE 3000
+#EXPOSE 8888
+#EXPOSE 3000
 
 #CMD ["node", "index.js"]
